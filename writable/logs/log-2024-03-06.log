@@ -1,0 +1,222 @@
+CRITICAL - 2024-03-06 14:37:30 --> Error: Call to a member function findAll() on null
+in APPPATH/Controllers/Desa.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 14:39:56 --> Error: Call to a member function findAll() on null
+in APPPATH/Controllers/Desa.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 14:41:13 --> Error: Call to a member function findAll() on string
+in APPPATH/Controllers/Desa.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 14:42:55 --> Error: Call to a member function findAll() on null
+in APPPATH/Controllers/Desa.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+ERROR - 2024-03-06 14:46:01 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'restapi-desa', 8889, '', 0)
+#1 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/Ihan/CodeIgniter4/restapi-desa/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/Ihan/CodeIgniter4/restapi-desa/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/Ihan/CodeIgniter4/restapi-desa/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-03-06 15:09:31 --> Error: Call to a member function findAll() on null
+in APPPATH/Controllers/Desa.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:33:14 --> Error: Object of class App\Models\Villages could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...], false)
+ 6 SYSTEMPATH/Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->find()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:34:09 --> Error: Object of class App\Models\Villages could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...], false)
+ 6 SYSTEMPATH/Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->find()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:34:35 --> Error: Object of class App\Models\Villages could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `districts`
+WHERE `id` = :id:', [...], false)
+ 6 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->findAll()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:43:05 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:44:10 --> ErrorException: Undefined array key "province_id"
+in APPPATH/Controllers/Desa.php on line 50.
+ 1 APPPATH/Controllers/Desa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "province_id"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:45:49 --> ErrorException: Undefined array key "province_id"
+in APPPATH/Controllers/Desa.php on line 50.
+ 1 APPPATH/Controllers/Desa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "province_id"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:53:00 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 15:53:40 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `regencies`
+WHERE `id` = :id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(50): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-06 16:10:13 --> ErrorException: Undefined array key "province_id"
+in APPPATH/Controllers/Desa.php on line 51.
+ 1 APPPATH/Controllers/Desa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "province_id"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 51)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3404070002')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')

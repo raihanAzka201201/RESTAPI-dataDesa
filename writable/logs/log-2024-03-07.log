@@ -1,0 +1,615 @@
+CRITICAL - 2024-03-07 00:44:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 48.
+ 1 APPPATH/Controllers/Desa.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('1')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:48:04 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 49.
+ 1 APPPATH/Controllers/Desa.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('1')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:48:31 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 APPPATH/Controllers/Desa.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 55)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:48:40 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 APPPATH/Controllers/Desa.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 55)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:49:11 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 APPPATH/Controllers/Desa.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 55)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:49:35 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 APPPATH/Controllers/Desa.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 55)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:50:01 --> Error: Call to a member function first() on array
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:52:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 50.
+ 1 APPPATH/Controllers/Desa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('340101000')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:53:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 50.
+ 1 APPPATH/Controllers/Desa.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('340101000')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:58:13 --> TypeError: Cannot access offset of type string on string
+in APPPATH/Controllers/Desa.php on line 55.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('3401010001')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 00:58:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 51.
+ 1 APPPATH/Controllers/Desa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 51)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->detailDesa('340101000')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 01:46:36 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules('provinsi', 'provinsi', 'JAWA TENGAH', [...], [...])
+ 3 APPPATH/Controllers/Desa.php(116): CodeIgniter\Validation\Validation->run([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 01:47:42 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules('provinsi', 'provinsi', 'JAWA TENGAH', [...], [...])
+ 3 APPPATH/Controllers/Desa.php(116): CodeIgniter\Validation\Validation->run([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 01:48:24 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules('provinsi', 'provinsi', 'JAWA TENGAH', [...], [...])
+ 3 APPPATH/Controllers/Desa.php(111): CodeIgniter\Validation\Validation->run([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 01:49:04 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules('provinsi', 'provinsi', 'JAWA ', [...], [...])
+ 3 APPPATH/Controllers/Desa.php(111): CodeIgniter\Validation\Validation->run([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:10:20 --> ErrorException: Undefined array key "name"
+in APPPATH/Controllers/Desa.php on line 161.
+ 1 APPPATH/Controllers/Desa.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 161)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:12:04 --> Error: Cannot use [] for reading
+in APPPATH/Controllers/Desa.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:28:44 --> TypeError: Unsupported operand types: string + string
+in APPPATH/Controllers/Desa.php on line 147.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:44:37 --> ErrorException: Undefined variable $val_kabupaten
+in APPPATH/Controllers/Desa.php on line 161.
+ 1 APPPATH/Controllers/Desa.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val_kabupaten', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 161)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:44:58 --> ErrorException: Undefined variable $val_kabupaten
+in APPPATH/Controllers/Desa.php on line 161.
+ 1 APPPATH/Controllers/Desa.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val_kabupaten', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 161)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 02:44:59 --> ErrorException: Undefined variable $val_kabupaten
+in APPPATH/Controllers/Desa.php on line 161.
+ 1 APPPATH/Controllers/Desa.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val_kabupaten', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 161)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:08:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 160.
+ 1 APPPATH/Controllers/Desa.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 160)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:09:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 160.
+ 1 APPPATH/Controllers/Desa.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 160)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:13:06 --> Error: Object of class App\Models\Regencies could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT *
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+AND `name` = :name:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+AND `name` = :name:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+AND `name` = :name:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(160): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:13:45 --> ErrorException: Undefined array key "regency_id"
+in APPPATH/Controllers/Desa.php on line 160.
+ 1 APPPATH/Controllers/Desa.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regency_id"', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 160)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:28:00 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Desa.php on line 178.
+ 1 APPPATH/Controllers/Desa.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 178)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:28:02 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Desa.php on line 178.
+ 1 APPPATH/Controllers/Desa.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 178)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:28:11 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Desa.php on line 178.
+ 1 APPPATH/Controllers/Desa.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 178)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:28:12 --> ErrorException: Array to string conversion
+in APPPATH/Controllers/Desa.php on line 178.
+ 1 APPPATH/Controllers/Desa.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 178)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:53:56 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:55:36 --> Error: Object of class App\Models\Regencies could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:55:37 --> Error: Object of class App\Models\Regencies could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:56:34 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:56:35 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 03:56:56 --> Error: Object of class App\Models\Regencies could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `districts`
+WHERE `regency_id` = :regency_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:39:44 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:42:36 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:42:37 --> Error: Object of class App\Models\District could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...])
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `name`
+FROM `villages`
+WHERE `district_id` = :district_id:
+ LIMIT 1', [...], false)
+ 6 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Desa.php(162): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:43:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 162.
+ 1 APPPATH/Controllers/Desa.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 162)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:58:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 159.
+ 1 APPPATH/Controllers/Desa.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 159)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:58:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 159.
+ 1 APPPATH/Controllers/Desa.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 159)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:59:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 159.
+ 1 APPPATH/Controllers/Desa.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 159)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 04:59:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 159.
+ 1 APPPATH/Controllers/Desa.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 159)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:11 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:13 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:29:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 182.
+ 1 APPPATH/Controllers/Desa.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 182)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:31:43 --> ErrorException: Undefined variable $error
+in APPPATH/Controllers/Desa.php on line 202.
+ 1 APPPATH/Controllers/Desa.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 202)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:46:02 --> ErrorException: Undefined variable $kab
+in APPPATH/Controllers/Desa.php on line 156.
+ 1 APPPATH/Controllers/Desa.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kab', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 156)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:46:12 --> ErrorException: Undefined variable $kab
+in APPPATH/Controllers/Desa.php on line 156.
+ 1 APPPATH/Controllers/Desa.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kab', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 156)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:46:13 --> ErrorException: Undefined variable $kab
+in APPPATH/Controllers/Desa.php on line 156.
+ 1 APPPATH/Controllers/Desa.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kab', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 156)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 05:46:14 --> ErrorException: Undefined variable $kab
+in APPPATH/Controllers/Desa.php on line 156.
+ 1 APPPATH/Controllers/Desa.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kab', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 156)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 06:54:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 189.
+ 1 APPPATH/Controllers/Desa.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
+CRITICAL - 2024-03-07 06:54:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Desa.php on line 189.
+ 1 APPPATH/Controllers/Desa.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Users/Ihan/CodeIgniter4/restapi-desa/app/Controllers/Desa.php', 189)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Desa->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/Ihan/CodeIgniter4/restapi-desa/public/index.php')
